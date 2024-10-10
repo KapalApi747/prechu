@@ -1,0 +1,122 @@
+/* GENERAL CSS */
+*{
+    box-sizing:border-box;
+}
+body{
+    font-size:14.35px;
+    font-family:segoe;
+    width:1250px;
+    margin:0 auto;
+}
+/* MARGINS EN PADDINGS */
+.w-40{
+    width:40%;
+}
+.w-60{
+    width:60%;
+}
+
+/* COLORS */
+.ctekstmain{
+    color:#909090;
+}
+.cbgmain{
+    background:#909090;
+}
+.ctekstblue{
+    color:#5094f2;
+}
+.cbgblue{
+    background:#5094f2;
+}
+/* FONTS */
+@font-face {
+    font-family:myriad;
+    src: url('../webfonts/MYRIADPRO-REGULAR.woff');
+}
+@font-face {
+    font-family:segoe;
+    src: url('../webfonts/SegoeWPN.woff');
+}
+/* POSITIONING CSS */
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.justify-content-start{
+    justify-content:flex-start;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content:space-around;
+}
+.justify-content-evenly{
+    justify-content:space-evenly;
+}
+.align-items-center{
+    align-items:center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.text-center{
+    text-align:center;
+}
+/* NAVIGATION MENU */
+nav ul li{
+    list-style-type:none;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#909090;
+}
+nav ul li a:hover{
+    color:#5094f2;
+    border-bottom:3px solid #5094f2;
+}
+/* SECTION LATEST NEWS */
+h2{
+    font-size:42.35px;
+    font-family: myriad;
+}
+h3{
+    font-size:20.35px;
+}
+.latestnewsp{
+    width:248px;
+}
+.latestnewsmargin{
+    margin:30px 0px;
+}
+#pencil,#basket,#pc{
+    border-radius:50%;
+}
+#pencil{
+    background:#5094f2;
+}
+#basket{
+    background:#d94748;
+}
+#pc{
+    background:#ebbb11;
+}
+footer{
+    border-top:1px solid #909090;
+}
+footer p{
+    padding:35px 0px;
+    margin:0px;
+}
