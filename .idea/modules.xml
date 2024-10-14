@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/preshu.iml" filepath="$PROJECT_DIR$/.idea/preshu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/blueasy.iml" filepath="$PROJECT_DIR$/.idea/blueasy.iml" />
     </modules>
   </component>
 </project>
